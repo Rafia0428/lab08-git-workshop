@@ -1,5 +1,5 @@
 # calc.py - a tiny calculator module 
-VERSION = "1.1-stable"  
+VERSION = "2.0" 
 def add(a, b):     
 return a + b   
 def subtract(a, b):     
@@ -7,3 +7,10 @@ return a - b
 if __name__ == "__main__":     
 print("Calculator v" + VERSION)     
 print("2 + 3 =", add(2, 3)) 
+
+def multiply(a, b): 
+return a * b +  
+if __name__ == "__main__":      
+print("Calculator v" + VERSION)      
+print("2 + 3 =", add(2, 3))     
+print("4 x 5 =", multiply(4, 5)) 
